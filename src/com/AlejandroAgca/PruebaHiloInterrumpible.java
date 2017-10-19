@@ -61,7 +61,7 @@ public class PruebaHiloInterrumpible {
 		
 		while(hilo.vive()) 
 		{
-			System.out.println("Hilo vivo, (i) interrumpit, (k) matar");
+			System.out.println("Hilo vivo, (i) interrumpir, (k) matar");
 			try {
 				tecla = br.readLine();
 				if(tecla.equals("i")) 
